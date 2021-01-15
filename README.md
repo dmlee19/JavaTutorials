@@ -126,14 +126,14 @@
       ```
     
     - TestGeometricObject_Polymorphism
-	```java
-	GeometricObject[] shapes = {
-	new Circle(3.0, "blue", true),
-	new Rectangle(4.5, 7.2, "green", false),
-	new Triangle(3.5, 4.6, 6.7, "ecru", true)
-	};
-	
-	```
+      ```java
+      GeometricObject[] shapes = {
+      new Circle(3.0, "blue", true),
+      new Rectangle(4.5, 7.2, "green", false),
+      new Triangle(3.5, 4.6, 6.7, "ecru", true)
+      };
+      
+      ```
 	
     - DiagonalTest
       ```java
