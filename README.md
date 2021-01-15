@@ -15,118 +15,165 @@
   - Scanner library 사용
 - print formatting
   - System.out의 여러 방법
+  
 ---
 
 2. Operator
 
+- 지정 연산자
+  - =, +=, -= 등
 - 산술 연산자
   - +, -, *, /, %, **, //
 - 비교 연산자
   - ==, !=, <, >, <=, >= 등
 - 논리 연산자 
   - and, &, or, |
-- 지정 연산자
-  - =, +=, -= 등
 
 ---
 
-3. Functions
+3. Conditional Statements
   
-- Number functions
-  - abs, pow, max, min, round 등
-- String functions
-  - ' ' vs " " vs """ """
-  - Slicing
-  - Method
-    - upper, lower, index, find, cound 등
-  - Format
-  - Escape
-    - \", \", \\, \t, \b, \r, \n
-
----
-
-4. Data Structure
-
-- List
-  - 선언, 추가(append), 삽입, 수정, 삭제, 정렬(sort), 합성(extend) 등 
-- Dictionary
-  - 선언, 출력(key, value), 추가, 수정, 삭제 등
-- Tuple
-  - 선언
-- Set
-  - 선언, 추가, 제거, type 변경, 합집합, 교집합, 차집합
-
----
-
-5. Loop Conditional Statements
-
 - If, elif else
-- For
-- Foreach
-- while
-- Break
-  - 해당 부분에서 반복문 중단
-- Countinue
-  - 해당 부분에서 이후 코드 실행하지 않고 다음 반복 실행
+  - 양/음 수 구분하는 프로그램
+  - 입력한 점수의 등급을 정해주는 프로그램
+- Swich
+  - 입력한 월의 총 일수를 확인하는 프로그램
 
 ---
 
-6. Functions
+4. Loop
 
-- 사용자 정의 함수
-  - 선언, 호출, 매개인자(기본값, 키워드, 가변인자)
-- Scope
-  - 지역 변수 (Local scope)
-  - 전역 변수 (Global scope)
+- for
+  - 입력된 구구단 범위 만큼 출력 (2, 4 --> 2단 3단 4단 출력) 
+- while (do/while)
+  - 입력된 연도가 윤년인지 확인해주는 프로그램
+
+---
+
+5. Functions
+
+- Mathmatical functions
+  - exp, pow, sqrt, ceil, floor, round, max, min 등
+- CharacterFunctions
+  - .equals, substring, indexOf 등
+- Overloaded method
+  - 매개변수의 갯수나 자료형이 다른 경우 같은 함수를 중복해서 선언가능
+- Variable number of augments
+  - (자료형... variable) array로 인식 --> 원하는 만큼 매개변수 입력 가능
   
 ---
 
-7. Input Output
-- Input Output
-  - 표준 입출력, 출력 포맷 설정
-- File System
-  - 파일을 통해서 입력 및 출력
-    - 열기, 저장, 읽기, 쓰기 등
-- Pickle
-  - 데이터를 저장하고 있다가 필요할때 불러와서 사용 (pickle library)
-    - 열기, 저장, 읽기, 쓰기 등
-- With
-  - 파일을 불러올때마다 요구되는 close 자동
+6. Array
+
+- Array Basic
+  - Array 선언
+- Copying Arrays
+  - reference 만 복사하는 경우
+  - 새로운 reference를 가지도록 copy (foreach, arraycopy)
+- Linear search
+  - array에서 앞에서부터 순서대로 원하는 값 검색
+- Binary search
+  - 자료가 순서대로 sort된 상태에서 중간값을 기준으로 큰값 작은값을 판단하여 원하는 값 검색
+- Two dimensional array 
+  - 2차원 Array
+- Ragged array
+  - 각 열의 길이가 다른 2차원 Array
+
+  6.1 Object  
+
+  - Element(원소)
+    - object를 요소로 가지는 array
+    - 원소 class를 이용하여 테스트
   
+---
+
+7. Object
+
+- Object Basic
+  - 객체가 왜 필요한가 ?
+- Circle
+  - 원을 생성하고 resize함수로 Circle Objet를 매개변수로 넘김.
+  - resize()함수를 통해 반지름 변경
+    - Test_1: 넘어온 Object의 반지름 값을 변경
+    - Test_2: 변경하고자 하는 반지름을 가지는 새로운 Circle Instance를 생성
+
+  7.1 Primitive and Reference
+    - Rectangle
+      - Primitive: 메모리 값 자체를 저장
+      - Reference: 메모리에 instance의 reference를 저장
+  7.2 Static Usage
+    - Reservation
+      - Static: 클래스에만 포함되며 클래스로 부터 생성된 어떠한 인스턴스에도 포함되지 않는 값을 설정하는 경우
+      - 예약 클래스에서 예약 수, 예약 요일
+        
 ---
 
 8. OOP
 
-- Class
-  - 생성, 생성자, 호출, 상속, 다중 상속, pass, super
-- Method Overriding
-- Starcraft Project
-  - 게임 스타크래프트 시나리오를 재연
+- Toaster
+  - 토스터 제작 회사에서 제작하는 예시로 Toaster에 PowerSupply, Dial의 class에 가져와 사용
+  
+  8.1 Chaining Constructor
+    - Subclass가 생성될 때, 각 Class에 생성자가 호출되는 과정
 
+  8.2 Inheritance and Polymorphism
+    - TestGeometricObject_inheritance
+      ```public class Circle extends GeometricObject{
+      public class Rectangle extends GeometricObject{
+      public class Triangle extends GeometricObject{```
+    - TestGeometricObject_Polymorphism
+      ```GeometricObject[] shapes = {
+				                              new Circle(3.0, "blue", true),
+				                              new Rectangle(4.5, 7.2, "green", false),
+				                              new Triangle(3.5, 4.6, 6.7, "ecru", true)
+		                                 };```
+    - DiagonalTest
+      ```GeometricObject shape = new Rectangle(4.5, 7.2, "green", true);
+		     // double diag = shape.getDiagonal(); // compile error, GeometricObject에 정의되지 않은 메서드
+		     double diag = ((Rectangle)shape).getDiagonal(); // shape를 Rectangle Class로 캐스팅 ```
+    - CastingTest
+      ```double area1 = ((GeometricObject)c).getArea(); // runtime 시 instance인 Circle의 getArea method 호출
+         double area2 = ((Circle)geo).getArea(); // compile에는 문제가 없지만 runtime에서 문제 발생
+         double area3 = ((Rectangle)c).getArea(); // subclass를 또 다른 subclass로 casing ==> compile 오류 ```
+    - TestShepeInfo
+      - 각 instance가 고유하게 가지는 함수를 호출
+      ```shapes[i] instanceof Circle
+         shapes[i] instanceof Rectangle```
+         
 ---
 
-9. Exception
+9. ArrayList
 
-- Exception
-  - 예외 구현 방법
-- Create Exception
-  - 사용자 정의 예외 생성
+- Percentages
+  - Array: 배열의 크기가 정해져 있음.
+  - ArrayList: 크기 가변이 가능한 배열
+- ArrayList Functions
+  - remove, contains, indexOf
   
 ---
 
-10. Package and module
+10. Exception
 
-- Module
-  - 생성, import, 호출
-- Package
-  - 생성, import, 호출, \__init__.py, \__all__
-- Install pip
-  - 검색, 설치, import
-- Built-in
-  - input, dir,  
-- 외장 함수  
-  - time, datetime, timedelta
+- AgeInDays
+  - 예외를 사용하는 예
+- Gerneral Exception
+  - 나누기 프로그램에서 예상 가능한 Exception을 적용
+- Using Exception
+  - 모든 예외상황에 Exception을 쓰기보다는 if 문을 통해서 해결
+- UseUtils
+  - library 개발 시 예외처리 고려사항
   
-  ---
-        `Youtube [나도코딩]체널 파이썬 코딩 무료 강의 (기본편) - 6시간 뒤면 여러분도 개발자가 될 수 있어요 강의를 보고 공부한 내용입니다.`
+---
+  
+  11. FileSystem
+
+- FileInformation
+  - 자바를 통해서 파일의 정보를 확인 
+- ReadPriceList
+  - 가격이 적힌 파일을 읽고, 모두 합한 후 5% 세금을 붙이는 계산 
+- NameSwitcher
+  - people.txt 파일을 읽고, first name과 second name의 자리를 바꿔 switched_people.txt 파일 생성하여 입력
+  
+---
+        `Youtube [Geek's Lession]체널 'Java Tutorial for Beginners to Expert [Full Course - 2020]'를 보고 공부한 내용입니다.`
   
