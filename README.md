@@ -120,25 +120,31 @@
     - TestGeometricObject_inheritance
       ```public class Circle extends GeometricObject{
       public class Rectangle extends GeometricObject{
-      public class Triangle extends GeometricObject{```
+      public class Triangle extends GeometricObject{
+     ```
     - TestGeometricObject_Polymorphism
-      ```GeometricObject[] shapes = {
-				                              new Circle(3.0, "blue", true),
-				                              new Rectangle(4.5, 7.2, "green", false),
-				                              new Triangle(3.5, 4.6, 6.7, "ecru", true)
-		                                 };```
+      	```GeometricObject[] shapes = {
+        new Circle(3.0, "blue", true),
+	new Rectangle(4.5, 7.2, "green", false),
+	new Triangle(3.5, 4.6, 6.7, "ecru", true)
+	};
+	```
+	
     - DiagonalTest
       ```GeometricObject shape = new Rectangle(4.5, 7.2, "green", true);
-		     // double diag = shape.getDiagonal(); // compile error, GeometricObject에 정의되지 않은 메서드
-		     double diag = ((Rectangle)shape).getDiagonal(); // shape를 Rectangle Class로 캐스팅 ```
+	 // double diag = shape.getDiagonal(); // compile error, GeometricObject에 정의되지 않은 메서드
+	 double diag = ((Rectangle)shape).getDiagonal(); // shape를 Rectangle Class로 캐스팅
+	```
     - CastingTest
       ```double area1 = ((GeometricObject)c).getArea(); // runtime 시 instance인 Circle의 getArea method 호출
          double area2 = ((Circle)geo).getArea(); // compile에는 문제가 없지만 runtime에서 문제 발생
-         double area3 = ((Rectangle)c).getArea(); // subclass를 또 다른 subclass로 casing ==> compile 오류 ```
+         double area3 = ((Rectangle)c).getArea(); // subclass를 또 다른 subclass로 casing ==> compile 오류
+	```
     - TestShepeInfo
       - 각 instance가 고유하게 가지는 함수를 호출
       ```shapes[i] instanceof Circle
-         shapes[i] instanceof Rectangle```
+         shapes[i] instanceof Rectangle
+	```
          
 ---
 
