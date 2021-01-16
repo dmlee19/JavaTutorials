@@ -207,7 +207,7 @@
 - Using Exception
   - 모든 예외상황에 Exception을 쓰기보다는 if 문을 통해서 해결
 - UseUtils
-  - library 개발 시 예외처리 고려사항
+  - library 개발 시 예외처리 고려사항  
 -**Exception**  
 	![Exception](https://github.com/dmlee89/JavaTutorials/blob/master/image/Exception.png)
   
