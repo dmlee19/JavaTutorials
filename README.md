@@ -74,7 +74,8 @@
   - array에서 앞에서부터 순서대로 원하는 값 검색
 - Binary search
   - 자료가 순서대로 sort된 상태에서 중간값을 기준으로 큰값 작은값을 판단하여 원하는 값 검색
-  ![BinarySearch](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png){:height="400px" width="400px"}
+  ![BinarySearch](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png)
+  
 - Two dimensional array 
   - 2차원 Array
 - Ragged array
@@ -93,7 +94,7 @@
 - Object Basic
   - 객체가 왜 필요한가 ?
 - Circle
-  - 원을 생성하고 resize함수로 Circle Objet를 매개변수로 넘김.
+  - 원을 생성하고 resize함수로 Circle Objet를 매개변수로 넘김.  
   - resize()함수를 통해 반지름 변경
     - Test_1: 넘어온 Object의 반지름 값을 변경
     ![PassingObject1](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject1.png)
