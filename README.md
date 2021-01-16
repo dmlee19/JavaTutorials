@@ -108,8 +108,8 @@
     - Rectangle
       - Primitive: 메모리 값 자체를 저장
       - Reference: 메모리에 instance의 reference를 저장
-      - **Copying object**
-      ![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)  
+      - **Copying object**  
+      	![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)  
   &nbsp;  
     
   7.2 Static Usage
@@ -155,10 +155,12 @@
       
       ```
      
-     - **Complie**  ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
+     - **Complie**  
+     	           ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
       
       
-     - **Runtime**  ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
+     - **Runtime**  
+     	           ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
    
    - DiagonalTest
       ```java
