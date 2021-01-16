@@ -74,7 +74,7 @@
   - array에서 앞에서부터 순서대로 원하는 값 검색
 - Binary search
   - 자료가 순서대로 sort된 상태에서 중간값을 기준으로 큰값 작은값을 판단하여 원하는 값 검색
-  ![AddPizza UI](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png)
+  ![BinarySearch](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png)
 - Two dimensional array 
   - 2차원 Array
 - Ragged array
@@ -96,27 +96,30 @@
   - 원을 생성하고 resize함수로 Circle Objet를 매개변수로 넘김.
   - resize()함수를 통해 반지름 변경
     - Test_1: 넘어온 Object의 반지름 값을 변경
+    ![PassingObject1](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject1.png)
     - Test_2: 변경하고자 하는 반지름을 가지는 새로운 Circle Instance를 생성
-
+    ![PassingObject2](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject2.png)
   7.1 Primitive and Reference
     - Rectangle
       - Primitive: 메모리 값 자체를 저장
       - Reference: 메모리에 instance의 reference를 저장
+      ![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)
   7.2 Static Usage
     - Reservation
       - Static: 클래스에만 포함되며 클래스로 부터 생성된 어떠한 인스턴스에도 포함되지 않는 값을 설정하는 경우
       - 예약 클래스에서 예약 수, 예약 요일
-        
+      ![Static](https://github.com/dmlee89/JavaTutorials/blob/master/image/Static.png)  
 ---
 
 8. OOP
 
 - Toaster
   - 토스터 제작 회사에서 제작하는 예시로 Toaster에 PowerSupply, Dial의 class에 가져와 사용
-  
+  ![Toaster](https://github.com/dmlee89/JavaTutorials/blob/master/image/Oop_Toaster.png)
+  ![ModifierVisibility](https://github.com/dmlee89/JavaTutorials/blob/master/image/ModifierVisibility.png)
   8.1 Chaining Constructor
     - Subclass가 생성될 때, 각 Class에 생성자가 호출되는 과정
-
+    ![ChainingConstructor](https://github.com/dmlee89/JavaTutorials/blob/master/image/chaining%20constructor.jpg)
   8.2 Inheritance and Polymorphism
     - TestGeometricObject_inheritance
       ```java
@@ -135,7 +138,8 @@
       };
       
       ```
-	
+      ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
+      ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
     - DiagonalTest
       ```java
       GeometricObject shape = new Rectangle(4.5, 7.2, "green", true);
