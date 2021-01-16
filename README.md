@@ -102,18 +102,22 @@
     &nbsp;
     - Test_2: 변경하고자 하는 반지름을 가지는 새로운 Circle Instance를 생성  
     ![PassingObject2](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject2.png)  
-    &nbsp;
+  &nbsp;  
+    
   7.1 Primitive and Reference
     - Rectangle
       - Primitive: 메모리 값 자체를 저장
       - Reference: 메모리에 instance의 reference를 저장
       - **Copying object**
-      ![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)
+      ![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)  
+  &nbsp;  
+    
   7.2 Static Usage
     - Reservation
       - Static: 클래스에만 포함되며 클래스로 부터 생성된 어떠한 인스턴스에도 포함되지 않는 값을 설정하는 경우
       - 예약 클래스에서 예약 수, 예약 요일
-      - **Static**
+      - **Static**  
+      &nbsp;
       ![Static](https://github.com/dmlee89/JavaTutorials/blob/master/image/Static.png)  
 ---
 
