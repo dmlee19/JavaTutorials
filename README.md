@@ -209,7 +209,7 @@
 - UseUtils
   - library 개발 시 예외처리 고려사항
 -**Exception**  
-	![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Exception.png)
+	![Exception](https://github.com/dmlee89/JavaTutorials/blob/master/image/Exception.png)
   
 ---
   
