@@ -103,11 +103,13 @@
     - Rectangle
       - Primitive: 메모리 값 자체를 저장
       - Reference: 메모리에 instance의 reference를 저장
+      - **Copying object**
       ![CopyingObject](https://github.com/dmlee89/JavaTutorials/blob/master/image/CopyingObject.png)
   7.2 Static Usage
     - Reservation
       - Static: 클래스에만 포함되며 클래스로 부터 생성된 어떠한 인스턴스에도 포함되지 않는 값을 설정하는 경우
       - 예약 클래스에서 예약 수, 예약 요일
+      - **Static**
       ![Static](https://github.com/dmlee89/JavaTutorials/blob/master/image/Static.png)  
 ---
 
@@ -116,9 +118,12 @@
 - Toaster
   - 토스터 제작 회사에서 제작하는 예시로 Toaster에 PowerSupply, Dial의 class에 가져와 사용
   ![Toaster](https://github.com/dmlee89/JavaTutorials/blob/master/image/Oop_Toaster.png)
+  
+  - **Visibility modifier**
   ![ModifierVisibility](https://github.com/dmlee89/JavaTutorials/blob/master/image/ModifierVisibility.png)
   8.1 Chaining Constructor
     - Subclass가 생성될 때, 각 Class에 생성자가 호출되는 과정
+    - **Chaining constructors**
     ![ChainingConstructor](https://github.com/dmlee89/JavaTutorials/blob/master/image/chaining%20constructor.jpg)
   8.2 Inheritance and Polymorphism
     - TestGeometricObject_inheritance
@@ -138,7 +143,10 @@
       };
       
       ```
+      - **Complie**
       ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
+      
+      - **Runtime**
       ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
     - DiagonalTest
       ```java
