@@ -96,7 +96,7 @@
 - Circle
   - 원을 생성하고 resize함수로 Circle Objet를 매개변수로 넘김.  
   - resize()함수를 통해 반지름 변경
-    - Test_1: 넘어온 Object의 반지름 값을 변경
+    - Test_1: 넘어온 Object의 반지름 값을 변경  
     ![PassingObject1](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject1.png)
     - Test_2: 변경하고자 하는 반지름을 가지는 새로운 Circle Instance를 생성
     ![PassingObject2](https://github.com/dmlee89/JavaTutorials/blob/master/image/PassingObject2.png)
