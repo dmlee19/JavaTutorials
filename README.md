@@ -156,11 +156,11 @@
       ```
      
      - **Complie**  
-     	           ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
+     	           \t ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
       
       
      - **Runtime**  
-     	           ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
+     	           \t ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
    
    - DiagonalTest
       ```java
