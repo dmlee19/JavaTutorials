@@ -125,6 +125,7 @@
   8.1 Chaining Constructor
     - Subclass가 생성될 때, 각 Class에 생성자가 호출되는 과정
     - **Chaining constructors**
+    
     ![ChainingConstructor](https://github.com/dmlee89/JavaTutorials/blob/master/image/chaining%20constructor.jpg)
   
   8.2 Inheritance and Polymorphism
@@ -147,10 +148,12 @@
       ```
      
      - **Complie**
+      
       ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
       
-     
+      
      - **Runtime**
+      
       ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
    
    - DiagonalTest
