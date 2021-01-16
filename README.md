@@ -121,10 +121,12 @@
   
   - **Visibility modifier**
   ![ModifierVisibility](https://github.com/dmlee89/JavaTutorials/blob/master/image/ModifierVisibility.png)
+  
   8.1 Chaining Constructor
     - Subclass가 생성될 때, 각 Class에 생성자가 호출되는 과정
     - **Chaining constructors**
     ![ChainingConstructor](https://github.com/dmlee89/JavaTutorials/blob/master/image/chaining%20constructor.jpg)
+  
   8.2 Inheritance and Polymorphism
     - TestGeometricObject_inheritance
       ```java
@@ -143,12 +145,15 @@
       };
       
       ```
-      - **Complie**
+     
+     - **Complie**
       ![Polymorphism_compile](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_compile.png)
       
-      - **Runtime**
+     
+     - **Runtime**
       ![Polymorphism_runtime](https://github.com/dmlee89/JavaTutorials/blob/master/image/Polymorphism_runtime.png)
-    - DiagonalTest
+   
+   - DiagonalTest
       ```java
       GeometricObject shape = new Rectangle(4.5, 7.2, "green", true);
       // double diag = shape.getDiagonal(); // compile error, GeometricObject에 정의되지 않은 메서드
