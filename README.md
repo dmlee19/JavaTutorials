@@ -74,7 +74,7 @@
   - array에서 앞에서부터 순서대로 원하는 값 검색
 - Binary search
   - 자료가 순서대로 sort된 상태에서 중간값을 기준으로 큰값 작은값을 판단하여 원하는 값 검색
-  ![BinarySearch](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png)
+  ![BinarySearch](https://github.com/dmlee89/JavaTutorials/blob/master/image/Binary%20search.png =400x400)
 - Two dimensional array 
   - 2차원 Array
 - Ragged array
